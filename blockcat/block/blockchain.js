@@ -9,7 +9,7 @@ class BlockChain {
         this.transactions = [];
     }
     addTransaction(transaction) {
-        console.log("거래가 성사되었습니다.", transaction);
+        console.log("The deal is complete.", transaction);
         this.transactions.push(transaction);
     }
 
@@ -47,7 +47,7 @@ class BlockChain {
         nonce: 0,
        });
     const target = this.getTarget(lastBlock.bits + this.hadicap);
-    console.log("현재 난이도 목표값:", target);
+    console.log("current difficulty value:", target);
     while (target <= newBlock.getHash()) {
        newBlock.nonce++;
        await this.slowResolve();
@@ -57,7 +57,7 @@ class BlockChain {
     newBlock.hash = newBlock.getHash();
     newBlock.difficulty = difficulty;
     newBlock.bits = this.difficultyToBits(newBlock.difficulty);
-    console.log("새로 채굴된 블록", newBlock);
+    console.log("The newly mined block", newBlock);
     return newBlock;
     }
     
@@ -71,7 +71,7 @@ class BlockChain {
             difficulty = difficulty * multiple;
             
 
-        }  //난이도 조절 (5의 배수일때 나머지는 0 비트는 2016개 조절시간 10분)
+        }  
         return difficulty;
 
     }
@@ -107,19 +107,10 @@ class BlockChain {
         if (Validation.confirmFirst(newBlock, this.blockchain)) {
             this.blockchain.push(newBlock);
         } else {
-            console.log("유효하지 않은 블록입니다.");
+            console.log("An invalid block.");
         } 
       }
     }
     module.exports = BlockChain;   
-        // const bc = new Blockchain();
-        // let block= bc.mining();
-        // // block.index = 14; (유효하지 않은블록)
-        // bc.addBlock(block);
-        // console.log(bc.blockchain);
-
-// console.log(new Blockchain().difficultyToBits(1));
-
-// console.log(new Blockchain().bitsToDifficulty(486604799));
-
+     
 

@@ -5,7 +5,7 @@ class Validation {
         const result = 
          newBlock.index === blockchain.length;
         if (!result) {
-            console.log("새로운블록의 인덱스와 블록갯수가 맞지않습니다.");
+            console.log("The index of the new block and the number of blocks do not match.");
         }
         return result;
     }
@@ -17,7 +17,7 @@ class Validation {
          console.log(blockchain[blockchain.length - 1]);      
          if(!result){
             console.log(
-                "마지막블록의 이전해시와 새로운블록의 현재해시가 같지않습니다."
+                "The previous hash of the last block and the current hash of the new block are not the same."
                 );
         }
         return result;
@@ -27,7 +27,7 @@ class Validation {
         if (newBlock.index === 0) return true;
             const result = newBlock.hash === newBlock.getHash();
          if(!result) {
-             console.log("새로운블록의 데이터 해시화가 해시가 같지않습니다.");
+             console.log("The data hash of the new block is not the same.");
         }
         return result;
     }        
@@ -75,7 +75,7 @@ class Validation {
         const result = preBlockchain.length < newBlockchain.length;      
         if(!result){
            console.log(
-               "새로운 블록체인의 길이가 같지 않습니다."
+               "The length of the new blockchain is not the same."
                );
        }
        return result;

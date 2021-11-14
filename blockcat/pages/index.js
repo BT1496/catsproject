@@ -43,7 +43,7 @@ const Index = () => {
   const addTransaction = (tx) => {
     const transaction = new Transaction(tx);
     if (transaction.from === "SYSTEM") {
-      console.log("보상 후 거래내역 초기화");
+      console.log("Initialize transaction details after compensation.");
       bc.transactions = [];
     }
     bc.addTransaction(transaction);
@@ -57,7 +57,7 @@ const Index = () => {
   const initBlockchain = (blockchain) => {
     if (blockchain) bc.blockchain = blockchain;
     localStorage.setItem("blockchain", JSON.stringify(bc.blockchain));
-    console.log("현재 블록체인", bc.blockchain);
+    console.log("new blockchain", bc.blockchain);
   };
 
   const startMining = async () => {
