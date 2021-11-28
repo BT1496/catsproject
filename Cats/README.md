@@ -3,18 +3,17 @@ Cats integration/staging tree
 
 https://www.project-cats.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2022 Cats Developers
 
 What is Cats?
 ----------------
 
-Cats is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
+ Cats is a new renewal version that uses scripts as proof of work algorithms.
  - 3 minute block targets
  - subsidy halves in 1000k blocks (~4 years)
+ - Safe and fast transaction speed.
 
 
-For more information, as well as an immediately useable, binary version of
 the Cats client sofware, see https://www.project-cats.org
 
 License
