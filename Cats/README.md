@@ -4,7 +4,7 @@ Cats integration/staging tree
 https://www.project-cats.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Cats Developers
+Copyright (c) 2022 Cats Developers
 
 What is Cats?
 ----------------
