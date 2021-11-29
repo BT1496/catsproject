@@ -1,8 +1,7 @@
 Cats 0.1 BETA
 ===================
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2022 Cats Developers
+Copyright (c) 2022 Cats 
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
