@@ -1,0 +1,6 @@
+catscoin-qt usr/bin
+share/pixmaps/catscoin32.xpm usr/share/pixmaps
+share/pixmaps/catscoin16.xpm usr/share/pixmaps
+share/pixmaps/catscoin128.png usr/share/pixmaps
+debian/catscoin-qt.desktop usr/share/applications
+debian/catscoin-qt.protocol usr/share/kde4/services/

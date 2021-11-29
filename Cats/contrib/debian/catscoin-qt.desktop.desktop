@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bitcoin
+Comment=Bitcoin P2P Cryptocurrency
+Exec=/usr/bin/catscoin-qt %u
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/catscoin128.png
+MimeType=x-scheme-handler/catscoin;
+Categories=Office;
+Name[ko_KR]=catscoin-qt.desktop
