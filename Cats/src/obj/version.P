@@ -1,0 +1,4 @@
+obj/version.o: version.cpp version.h clientversion.h \
+ /home/bt/바탕화면/Cats/src/obj/build.h
+version.cpp version.h clientversion.h :
+ /home/bt/바탕화면/Cats/src/obj/build.h :
