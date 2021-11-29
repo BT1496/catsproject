@@ -1,0 +1,54 @@
+Icon: src/qt/res/icons/clock*.png, src/qt/res/icons/tx*.png,
+      src/qt/res/src/clock_green.svg, src/qt/res/src/clock1.svg,
+      src/qt/res/src/clock2.svg, src/qt/res/src/clock3.svg,
+      src/qt/res/src/clock4.svg, src/qt/res/src/clock5.svg,
+      src/qt/res/src/inout.svg, src/qt/res/src/questionmark.svg
+Designer: Cats_hiU
+License: MIT
+
+Icon: src/qt/res/icons/address-book.png, src/qt/res/icons/export.png,
+      src/qt/res/icons/history.png, src/qt/res/icons/key.png,
+      src/qt/res/icons/lock_*.png, src/qt/res/icons/overview.png,
+      src/qt/res/icons/receive.png, src/qt/res/icons/send.png,
+      src/qt/res/icons/synced.png, src/qt/res/icons/filesave.png
+Icon Pack: NUVOLA ICON THEME for KDE 3.x
+Designer: Cats_hiU (cats_e@project-cats.org)
+          
+License: MIT
+
+Icon: src/qt/res/icons/connect*.png
+Designer: Cats_hiU (cats_e@project-cats.org)
+          
+License: MIT
+
+Icon: src/qt/res/icons/transaction*.png
+Designer: Cats_hiU (cats_e@project-cats.org)
+          
+License: MIT
+
+Icon: src/qt/res/icons/configure.png, src/qt/res/icons/quit.png,
+      src/qt/res/icons/editcopy.png, src/qt/res/icons/editpaste.png,
+      src/qt/res/icons/add.png, src/qt/res/icons/edit.png,
+      src/qt/res/icons/remove.png (edited)
+Designer: Cats_hiU (cats_e@project-cats.org)
+          
+License: MIT
+
+Icon:  scripts/img/reload.xcf (modified), src/qt/res/movies/update_spinner.mng
+Icon Pack: Kids
+Designer: Everaldo (Everaldo Coelho)
+License: GNU/GPL 
+Site: http://findicons.com/icon/17102/reload?id=17102
+
+Icon: src/qt/res/icons/debugwindow.png
+Designer: Cats_hiU (cats_e@project-cats.org)
+          
+License: MIT
+Icon: src/qt/res/icons/catscoin.icns, src/qt/res/src/catscoin.svg,
+      src/qt/res/src/catstcoin.ico, src/qt/res/src/catscoin.png,
+      src/qt/res/src/catstcoin_testnet.png, docs/catscoin_logo_doxygen.png,
+      src/qt/res/icons/toolbar.png, src/qt/res/icons/toolbar_testnet.png,
+      src/qt/res/images/splash.png, src/qt/res/images/splash_testnet.png
+Designer: Cats_hiU (cats_e@project-cats.org)
+          
+License: MIT
