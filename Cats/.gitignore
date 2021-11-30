@@ -1,0 +1,34 @@
+src/*.exe
+src/Cats
+src/Catsd
+src/test_Cats
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.Cats
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+Cats-qt
+Cats-Qt.app
+
+# Unit-tests
+Makefile.test
+Cats-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
